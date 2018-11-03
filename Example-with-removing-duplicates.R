@@ -1,4 +1,5 @@
 # search for removeDupKeys = TRUE below!
+# also search for varsToDrop
 
 ###
  # Small data example
