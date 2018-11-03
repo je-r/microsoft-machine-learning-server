@@ -1,3 +1,5 @@
+# search for removeDupKeys = TRUE below!
+
 ###
  # Small data example
  ###
