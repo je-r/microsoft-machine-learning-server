@@ -1,6 +1,6 @@
 # rxDForest: Parallel External Memory Algorithm for Classification and Regression Decision Forests
 
-#but where is xVal ?:
+#but where is xVal ? not here:
 
 rxDForest(formula, data,
       outFile = NULL, writeModelVars = FALSE, overwrite = FALSE,    
@@ -23,3 +23,6 @@ rxDForest(formula, data,
  ## S3 method for class `rxDForest':
 plot  (x, type = "l", main = deparse(substitute(x)), 
       ...  )
+
+# xVal only in rxDTree not in rxDForest above? check it by trying in server for real! 
+# xVal: controls the number of folds used to perform cross-validation. The default of 2 allows for some pruning; once you have closed in a model you may want to increase the value for final fitting and pruning.
