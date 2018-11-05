@@ -1,0 +1,5 @@
+readPath <- rxGetOption("jerDataDir")
+infile <- file.path(readPath, "jer.txt")
+outfile <- file.path(readPath, "jer.xdf")
+jerXDF <- rxImport(infile, outFile = outfile) 
+# (if outFile specified then XDF file not dataframe is being created?)
